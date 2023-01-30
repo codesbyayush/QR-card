@@ -1,0 +1,44 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background-color: #7b879d;
+    text-align: center;
+}
+
+.main-container{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    margin: auto; 
+}
+
+.main-card{
+    display:flex;
+    flex-flow: column;
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    gap: .8rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px 5px rgba(83, 82, 82, 0.518);
+    align-items: center;
+}
+
+.main-qr-image{
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.main-tagline{
+    color: #1f3251;
+}
+
+.light-text{
+    color: #989fa8;
+}
